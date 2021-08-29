@@ -45,7 +45,7 @@ jobs:
           file: ./Dockerfile
           platforms: linux/amd64,linux/arm64
           push: true
-          tags: nowaidavid/azuracast/azuracast_radio:v0.14.1
+          tags: nowaidavid/azuracast_radio:v0.14.1
           cache-from: type=local,src=/tmp/.buildx-cache
           cache-to: type=local,dest=/tmp/.buildx-cache-new
           # This ugly bit is necessary if you don't want your cache to grow forever
